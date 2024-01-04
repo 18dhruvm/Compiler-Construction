@@ -1,0 +1,6 @@
+Hi
+2 This is a sample program
+3 to check answer
+4 for exercise no 2
+5 This works fine
+6 

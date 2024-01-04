@@ -1,0 +1,6 @@
+This is a 
+//program file
+It removes
+//the comment lines
+//gives the new output
+This program is working

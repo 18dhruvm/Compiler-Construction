@@ -1,0 +1,70 @@
+Sanrachna bank{
+    ~ank bal;
+    ~akshr id;
+    ~dashm uid;
+};
+Mukhya()
+Shuru=>
+~rachna bank b1;
+~ank a[4];
+~ank b[4];
+~ank c[2];
+~dashm sum1;
+~dashm sum2;
+~ank num;
+~ank i;
+a[0]:1;
+a[1]:3;
+a[2]:4;
+a[3]:6;
+b[0]:5;
+b[1]:10;
+b[2]:9;
+b[3]:3;
+
+Jabtak(i<4)
+    Tabtak
+        Agr(i % 2 Ulta 0)Toh
+            chlnedo;
+        Vrna
+            c[i/2]: a[i]+b[i];
+            i: i+1;
+	KhatmAgr    
+KhatmJabtak
+
+Likh ('Enter a number:');
+Padh(num);
+Dohrah(i:2;num/2;1)
+Agr(num % i Brbr 0)Toh
+    Ja NonPrime;
+Vrna
+    todh;
+KhatmAgr
+KhatmDohrah
+
+Prime =>
+Padh(num);
+Likh('The number is a prime number',num);
+Ja exit;
+
+NonPrime =>
+Likh('The number is not a prime number',num);
+
+Exit=> 
+Likh('Sum of array A and B is stored in array C');
+Khatm
+
+Karya getbal()
+Shuru=>
+    Likh('This function prints your savings account balance');
+Khatm
+
+Karya statements()
+Shuru=>
+    Likh('This function prints your latest bank statements');
+Khatm
+
+Karya getOtp()
+Shuru=>
+    Likh('This function generates an otp pin that will be sent to your registered mobile number');
+Khatm

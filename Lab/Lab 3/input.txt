@@ -1,0 +1,5 @@
+Hi
+This is a sample program
+to check answer
+for exercise no 2
+This works fine
